@@ -35,5 +35,11 @@ int main()
 	b.print(root);
 	cout<<"\n";
 
+	if(b.isSymmetric(root) == true) cout<<"The tree is symmetric\n";
+	else cout<<"The tree is not Symmetric\n";
+
+	// A Binary Search Tree can never be symmetric
+	// A Binary Tree can be symmetric
+
 	return 0;
 }
